@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+    font-family: 'tokyo-3';
+    src: url('fonts/Tokyo.ttf') format('truetype');
+}
+
+
+body {
+    font: normal 16px 'tokyo-3';
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+/*
+medidas absolutas
+cm, mm, in, px, pt, pc
+
+
+medidas reltivas
+em, ex, rem, vw, vh, %
+
+*/

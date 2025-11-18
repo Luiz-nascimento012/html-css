@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: linear-gradient(to right, #004FE0, #2E4F8B);
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    
+}

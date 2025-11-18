@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background-color: rgba(84, 198, 96, 1);
+}
+
+/* Header */
+header {
+  background-image: linear-gradient(to bottom, rgba(84, 198, 96, 1), rgb(23, 58, 27));
+  color: white;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+
+  box-shadow: 4px 2px 10px 3px rgba(0, 0, 0, 0.564)
+}
+
+header > p {
+  margin: 10px 0;
+}
+
+/* Títulos */
+h1 {
+  margin: 0;
+  font-size: 2em;
+}
+
+h2 {
+  background-image: linear-gradient(to right, rgba(84, 198, 96, 1) 30px, rgba(255, 255, 255, 1) 70%);
+  padding: 10px;
+  font-size: 1.5em;
+}
+
+/* Navegação */
+nav {
+  margin-right: 20px;
+  padding: 10px;
+  background-color: rgba(23, 58, 27, 0.9);
+} 
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Conteúdo principal */
+main {
+  background-color: white;
+  max-width: 800px;
+  width: 100%;
+  margin: auto;
+  box-shadow: 4px 2px 10px 3px rgba(0, 0, 0, 0.564)
+}
+main > h1 {
+    text-align: center;
+}
+
+main > p {
+  text-indent: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Imagens e vídeos */
+picture img {
+  max-width: 80%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+iframe {
+    width: 100%;
+    border: 20px solid rgba(23, 58, 27, 0.9);
+}
+
+/* Rodapé */
+footer {
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+footer > p {
+    margin: 0;
+}

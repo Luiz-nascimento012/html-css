@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: rgb(85, 84, 84);
+    color: white;
+}
+
+th.exatas, th.humanas {
+    background-color: white;
+    color: black;
+}
+
+th.media {
+    text-align: left;
+}
+
+td.num {
+    text-align: center;
+}
+
+td.num-media {
+    text-align: center;
+    background-color: rgb(85, 84, 84);
+    color: white;
+    font-weight: bold;
+}

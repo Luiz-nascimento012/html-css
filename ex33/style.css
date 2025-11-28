@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+caption {
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+th.cabeça {
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+
+th.mulher {
+    background-color: rgb(251, 92, 119);
+}
+
+th.homem {
+    background-color: rgb(39, 39, 253);
+}

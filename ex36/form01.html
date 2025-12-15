@@ -8,17 +8,26 @@
 </head>
 <body>
     <main>
-        <h1>meu primeiro formulário</h1>
         <form action="cadastro.php" method="post" autocomplete="on" >
+            <h2>conecte-se com meu site</h2>
             <p>
-                <label for="iuser">Usuario: </label><input type="text" name="nome" id="iuser" required minlength="5" maxlength="20">
+                <label for="iuser">Usuario: </label><input class="campo" type="text" name="nome" id="iuser" required minlength="5" maxlength="20" autocomplete="username">
+            </p>
+
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input class="campo" type="email" name="email" id="iemail" autocomplete="email">
+            </p>
+
+            <p>
+                <label for="itel"></label>
             </p>
         
-        
+        <!--estudar mais RegE|x-->
             <p>
-                <label for="isenha">Senha:</label> <input type="password" name="senha" id="isenha" required minlength="8" maxlength="24">
+                <label for="isenha">Senha:</label> <input class="campo" type="password" name="senha" id="isenha" required minlength="8" maxlength="24" autocomplete="current-password">
             </p>
-            <p><input type="submit" value="Enviar"></p>
+            <p><input class="botao" type="submit" value="Enviar"></p>
         </form>
     </main>
 </body>

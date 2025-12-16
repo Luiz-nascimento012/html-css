@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+NIvel de satisfação: 
+
+Foto: Nenhum arquivo escolhido
+
+ 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="GET" autocomplete="on">
+        <p>
+            <label for="iest"> Estado: </label>
+            <select name="estado" id="iest">
+                <optgroup label="Região Sudeste">
+                    <option value="SP">São Paulo</option>
+                    <option value="Rj">Rio de Janeiro</option>
+                    <option value="CE">Ceará</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <label for="iprof">Profissão: </label>
+        <input type="text" name="Profissão" id="iprof" list="lstprof">
+        <datalist id="lstprof">
+            <option>cozinhehiro</option>
+        </datalist>
+        <p>
+            <label for="ifoto">Foto: </label>
+            <input type="file" name="Fotoifoto" id="">
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

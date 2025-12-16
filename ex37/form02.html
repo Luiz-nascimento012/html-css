@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>primeiros passos na programação</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <h1>exemplo de formulário</h1>
+        
+        <p>
+            <label for="inum">Numero: </label>
+            <input type="range" name="Numero" id="inum" oninput="ival.innerHTML = Number(inum.value)">
+            <output id="ival">50</output>
+        </p>
+
+        
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>

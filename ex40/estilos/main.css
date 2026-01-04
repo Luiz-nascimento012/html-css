@@ -80,3 +80,23 @@ article > p {
     margin-bottom: 15px;
     line-height: 20px;
 }
+
+@media screen and (min-width: 769px) {
+    span#burguer {
+        display: none;
+    }
+
+    menu {
+        display: inline-block;
+    }
+
+    menu a {
+        display: inline-block;
+        padding: 10px 10px 0px 10px;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    main {
+        width: 768px;
+    }
+}

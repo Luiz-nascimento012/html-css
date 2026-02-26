@@ -6,28 +6,45 @@
     <title>Document</title>
     <style>
         body {
+            height: 100vh;
         }
 
-
-        .container {
-            background-color: aqua;
-            display: flex;
-            flex: row  wrap;
-        }
-
-        div {
+        header {
             background-color: brown;
-            padding: 10px;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+        }
+
+        header > nav > .a-header {
+            width: 50px;
+            color: white;
+            text-decoration: none;
+            font-size: 1.3em;
+        }
+
+        header > nav {
+            width: 50%;
+            display: flex;
+            justify-content: space-evenly;
+            
+
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="item">exemplo de item A</div>
-        <div class="item">exemplo de item B</div>
-        <div class="item">exemplo de item C</div>
-        <div class="item">exemplo de item D</div>
-        <div class="item">exemplo de item E</div>
-    </div>
+    <header>
+        <h1>Teste de alinhamento flex</h1>
+        <nav>
+        
+            <a href="#" class="a-header">Teste</a>
+            <a href="#" class="a-header">Teste</a>
+            <a href="#" class="a-header">Teste</a>
+            <a href="#" class="a-header">Teste</a>
+        </nav>
+    </header>
+
 </body>
 </html>

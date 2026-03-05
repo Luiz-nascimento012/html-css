@@ -1,0 +1,14 @@
+
+div.container {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    background-color: #f08080;
+    height: 400px;
+}
+
+div.filho {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+}

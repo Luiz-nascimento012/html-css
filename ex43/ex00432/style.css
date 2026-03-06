@@ -1,14 +1,34 @@
 
 div.container {
     display: flex;
-    flex-flow: row wrap;
+    flex-flow: row nowrap;
     align-content: center;
     background-color: #f08080;
-    height: 400px;
 }
 
-div.filho {
+div.filho1 {
     background-color: aqua;
     border: 1px solid black;
     padding: 20px;
+    flex-basis: 100px;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+
+div.filho2 {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 100px;
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+
+div.filho3 {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 20px;
+    flex-basis: 100px;
+    flex-grow: 0;
+    flex-shrink: 2;
 }

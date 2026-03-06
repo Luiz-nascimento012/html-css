@@ -1,6 +1,6 @@
 
 div.container {
-    display: block;
+    display: none;
     flex-direction: column;
     background-color: #f08080;
     gap: 1.2em;

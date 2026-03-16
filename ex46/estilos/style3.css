@@ -1,0 +1,48 @@
+div.container {
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template: repeat(6, 1fr) / repeat(4, 1fr);
+    gap: 10px;
+}
+
+div.caixa01 {
+    background-color: brown;
+    padding: 20px;
+    text-align: center;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+div.caixa02 {
+    background-color: rgb(50, 50, 234);
+    padding: 20px;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: -2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+div.caixa03 {
+    background-color: rgb(213, 232, 9);
+    padding: 20px;
+    text-align: center;
+    grid-row-start: 2;
+    grid-row-end: -2;
+    grid-column-start: 2;
+    grid-column-end: -1;
+}
+
+div.caixa04 {
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    grid-row-start: 6;
+    grid-row-end: -1;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    
+}
